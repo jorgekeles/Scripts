@@ -1,0 +1,670 @@
+'show system uptime'
+Current time: 2020-10-22 00:21:11 ART
+System booted: 2017-01-26 03:32:59 ART (194w6d 20:48 ago)
+Protocols started: 2017-01-26 03:37:43 ART (194w6d 20:43 ago)
+Last configured: 2020-10-07 15:03:49 ART (2w0d 09:17 ago) by u564571
+12:21AM  up 1364 days, 20:48, 2 users, load averages: 0.39, 0.35, 0.25
+{master}
+
+'show chassis alarms | no-more'
+No alarms currently active
+{master}
+
+'show task replication | no-more'
+Stateful Replication: Enabled
+        RE mode: Master
+    Protocol		    Synchronization Status
+    OSPF              	    Complete              
+    BGP               	    Complete              
+    PIM               	    Complete              
+    MPLS              	    Complete              
+    LDP               	    Complete              
+{master}
+
+'show arp | match "Total entries" | no-more'
+Total entries: 169
+{master}
+
+'show interface description | no-more'
+show interfaces descriptions | no-more 
+Interface       Admin Link Description
+ge-0/0/0        up    up   HUB:SWM1.CBC1
+ge-0/0/1        up    up   VOD:Gestion APEX1.CBC1
+ge-0/0/2        up    up   VOD:Video APEX1.CBC1-Gbe1
+ge-0/0/3        up    up   VOD:Video APEX1.CBC1-Gbe3
+ge-0/0/4        up    up   VOD:Gestion APEX2.CBC1
+ge-0/0/5        up    up   VOD:Video APEX2.CBC1-Gbe1
+ge-0/0/6        up    up   VOD:Video APEX2.CBC1-Gbe3
+ge-0/0/7        up    up   VOD:Gestion APEX3.CBC1
+ge-0/0/8        up    up   VOD:Video APEX3.CBC1-Gbe1
+ge-0/0/9        up    up   VOD:Video APEX3.CBC1-Gbe3
+ge-0/1/0        up    up   SWM3.CBC1
+ge-0/1/1        up    up   VOD:Gestion APEX6.CBC1
+ge-0/1/2        up    up   VOD:Video APEX6.CBC1-Gb1
+ge-0/1/3        up    up   VOD:Video APEX6.CBC1-Gb3
+ge-0/1/4        up    down Libre tras migracion CSC
+ge-0/1/5        up    up   Sistemas:Vlan 285 (192.168.130.0/24)
+ge-0/1/6        up    up   VPLS-VIDEO-220608-Proyecto-1Ghz_apex
+ge-0/1/7        up    down Reservada_May17_FCORP:SCO
+ge-0/2/5        up    up   CNX:GMC1.CBC1_Gestion
+ge-0/3/9        up    up   Cyclades-CBC1
+ge-1/0/2        up    down Reservado_May-18_TECO:LTE
+ge-1/0/3        up    down Reservado_May-18_TECO:LTE
+ge-1/1/2        up    down Reservado_May-18_TECO:LTE
+ge-1/1/6        up    up   CNX:GMC1.CBC1_Servicio
+xe-1/2/0        up    up   TRK:ACCESO:CMT1.CBC1-CBR8 (4/1/0)
+xe-1/2/1        up    up   TRK:ACCESO:CMT2.CBC1-CBR8 (4/1/0)
+xe-1/3/0        up    up   TRK:ACCESO:CMT3.CBC1-CBR8 (4/1/0)
+xe-1/3/1        up    up   TRK:FCORP:RAC1.CBC1-MX104
+xe-2/0/0        up    up   TRK:ENLACE:ROM1.STF1 (xe-0/3/2)
+xe-2/0/1        up    up   TRK:ENLACE:ROM1.STF1 (xe-0/3/3)
+xe-2/1/0        up    up   TRK:ENLACE:ROM1.STF1 (xe-1/1/1)
+xe-2/1/1        up    up   TRK:ENLACE:ROM1.CBA1 (xe-0/3/3)
+xe-3/0/0        up    up   TRK:ENLACE:ROM1.STF1 (xe-1/3/0)
+xe-3/0/1        up    up   TRK:ENLACE:ROM1.STF1 (xe-1/3/1)
+xe-3/1/0        up    up   TRK:ENLACE:ROM1.STF1 (xe-1/3/2)
+xe-3/1/1        up    down LIBRE OPTICO (CON MODULO LR)
+xe-4/0/0        up    up   TRK:ACCESO:CMT1.CBC1-CBR8 (4/1/1)
+xe-4/0/1        up    up   TRK:ACCESO:CMT2.CBC1-CBR8 (4/1/1)
+xe-4/0/2        up    up   TRK:ACCESO:CMT3.CBC1-CBR8 (4/1/1)
+xe-4/0/3        up    up   TRK:ROA1.CBC1-Telecom - LTE/Backhaul/CEN4MU (Te11/0/3)
+xe-4/1/0        up    up   TRK:ACCESO:CMT4.CBC1-CBR8 (4/1/0)
+xe-4/1/1        up    up   TRK:ACCESO:CMT4.CBC1-CBR8 (4/1/1)
+xe-4/1/2        up    up   TRK:CDN:CBC:GOOGLE:CBC:Server101-Google-10GbE
+xe-4/1/3        up    up   TRK:ACCESO:CMT3.CBC1-CBR8 (4/1/2)
+xe-4/2/0        up    up   TRK:ENLACE:ROM1.STF1 (xe-2/2/0)
+xe-4/2/1        up    up   TRK:ENLACE:ROM1.STF1 (xe-2/2/1)
+xe-4/2/2        up    up   TRK:ENLACE:ROM1.STF1 (xe-2/2/2)
+xe-4/2/3        up    up   TRK:ENLACE:ROM1.STF1 (xe-2/2/3)
+xe-4/3/0        up    up   TRK:ACCESO:CMT1.CBC1-CBR8 (4/1/2)
+xe-4/3/1        up    down LIBRE OPTICO (CON MODULO LR)
+xe-4/3/2        up    down LIBRE OPTICO (CON MODULO LR)
+xe-4/3/3        up    down LIBRE OPTICO (CON MODULO LR)
+xe-7/0/0        up    up   TRK:ACCESO:CMT1.CBC1-CBR8 (5/1/1)
+xe-7/0/1        up    up   TRK:ACCESO:CMT2.CBC1-CBR8 (5/1/1)
+xe-7/0/2        up    up   TRK:ACCESO:CMT3.CBC1-CBR8 (5/1/1)
+xe-7/0/3        up    up   TRK:CDN:CBC:GOOGLE:CBC:Server101-Google-10GbE
+xe-7/1/0        up    up   TRK:ACCESO:CMT4.CBC1-CBR8 (5/1/0)
+xe-7/1/1        up    up   TRK:ACCESO:CMT4.CBC1-CBR8 (5/1/1)
+xe-7/1/2        up    up   TRK:CDN:CBC:GOOGLE:CBC:Server101-Google-10GbE
+xe-7/1/3        up    up   TRK:ACCESO:CMT3.CBC1-CBR8 (5/1/2)
+xe-7/2/0        up    up   TRK:ENLACE:ROM1.CBA1 (xe-9/0/0)
+xe-7/2/1        up    up   TRK:ENLACE:ROM1.CBA1 (xe-9/0/1)
+xe-7/2/2        up    up   TRK:ENLACE:ROM1.CBA1 (xe-9/0/2)
+xe-7/2/3        up    up   TRK:ENLACE:ROM1.CBA1 (xe-9/0/3)
+xe-7/3/0        up    up   TRK:ENLACE:ROM1.STF1
+xe-7/3/1        up    up   TRK:ACCESO:CMT1.CBC1-CBR8 (5/1/2)
+xe-7/3/2        up    down LIBRE OPTICO(SIN MODULO)
+xe-7/3/3        up    down LIBRE OPTICO(SIN MODULO)
+xe-8/0/0        up    down LIBRE OPTICO (CON MODULO LR)
+xe-8/0/1        up    down LIBRE OPTICO (CON MODULO LR)
+xe-8/1/0        up    down LIBRE OPTICO (CON MODULO LR)
+xe-8/1/1        up    down LIBRE OPTICO (CON MODULO LR)
+xe-9/0/0        up    up   TRK:ENLACE:ROM1.CBA1 (xe-0/1/3)
+xe-9/0/1        up    up   TRK:ENLACE:ROM1.CBA1 (xe-0/0/3)
+xe-9/1/0        up    up   TRK:ENLACE:ROM1.CBA1 (xe-11/1/1)
+xe-9/1/1        up    up   TRK:ENLACE:ROM1.CBA1 (xe-11/1/2)
+ge-10/1/6       up    up   CNX:GMC1.CBC1_Servicio
+xe-10/2/0       up    up   TRK:ACCESO:CMT1.CBC1-CBR8 (5/1/0)
+xe-10/2/1       up    up   TRK:ACCESO:CMT2.CBC1-CBR8 (5/1/0)
+xe-10/3/0       up    up   TRK:ACCESO:CMT3.CBC1-CBR8 (5/1/0)
+xe-10/3/1       up    up   TRK:FCORP:RAC1.CBC1-MX104
+ge-11/0/0       up    up   HUB:SWM1.CBC1
+ge-11/0/1       up    up   VOD:Gestion APEX5.CBC1
+ge-11/0/2       up    up   VOD:Video APEX4.CBC1-Gbe1
+ge-11/0/3       up    up   VOD:Video APEX4.CBC1-Gbe3
+ge-11/0/4       up    up   VOD:Gestion APEX4.CBC1
+ge-11/0/5       up    up   VOD:Video APEX5.CBC1-Gbe1
+ge-11/0/6       up    up   VOD:Video APEX5.CBC1-Gbe3
+ge-11/1/0       up    up   SWM3.CBC1
+ge-11/1/1       up    up   VOD:Gestion APEX7.CBC1
+ge-11/1/2       up    up   VOD:Video APEX7.CBC1-Gb1
+ge-11/1/3       up    up   VOD:Video APEX7.CBC1-Gb3
+ge-11/1/4       up    down Libre
+ge-11/1/5       up    up   Sistemas:Vlan 288 (192.168.135.0/24)
+ge-11/1/6       up    down VPLS-VIDEO-220608-Proyecto-1Ghz_pc
+ge-11/1/7       up    down Reservada_May17_FCORP:SCO
+ae6             up    up   CNX:ENLACE:ROM1.STF1 (xe-2/1/1 + xe-7/2/0 + xe-7/2/1 + xe-7/2/2 + xe-7/2/3 + xe-7/3/0 + xe-9/0/0 + xe-9/0/1 + xe-9/1/0 + xe-9/1/1)
+ae7             up    up   CNX:FCORP:RAC1.CBC1-MX104 (xe-1/3/1 - xe-10/3/1)
+ae7.55          up    up   FCORP:equipo:IP_10.106.105.104
+ae7.100         up    up   Vlan 100 - CSC Fibercorp
+ae7.365         up    up   IRS:ORBIS-10Mbps
+ae7.399         up    up   VPLS:ALLENDE
+ae8             up    up   CNX:ENLACE:ROM1.CBA1 (xe-2/0/0 + xe-2/0/1 + xe-2/1/0 + xe-4/2/0 + xe-4/2/1 + xe-4/2/2 + xe-4/2/3)
+ae9             up    up   CNX:Telecom - LTE/Backhaul (xe-4/0/3)
+ae9.1000        up    up   IP_S1
+ae9.1001        up    up   IP_S1MME
+ae9.1002        up    up   IP_GOMRAN
+ae9.1003        up    up   IP_Wan3G
+ae9.1004        up    up   IP_Wan2G
+ae9.3356        up    up   CNX:FRONTERA-ToIP
+ae10            up    up   HUB:SWM3.CBC1
+ae10.13         up    up   MONITOREO-ROC
+ae10.18         up    up   SUPERVISION-INTERIOR-ROC
+ae10.1011       up    up   SEGURIDAD-INTERIOR-ROC
+ae10.3456       up    up   MGMT:SWM3.CBC1
+ae11            up    up   HUB:SWM1.CBC1
+ae11.13         up    up   MHUB:VLAN13-MONITOREO-Cordoba_Centro
+ae11.18         up    up   MHUB:SUPERVISION-INTERIOR-Cordoba_Centro
+ae11.1011       up    up   MHUB:SEGURIDAD-INTERIOR-Cordoba_Centro
+ae11.3456       up    up   MHUB:GESTION-SWM1_CBC1
+ae12            up    up   HUB:SWM1.CBC1
+ae12.13         up    up   MHUB:VLAN13-MONITOREO-Cordoba_Centro
+ae12.18         up    up   MHUB:SUPERVISION-INTERIOR-Cordoba_Centro
+ae12.1011       up    up   MHUB:SEGURIDAD-INTERIOR-Cordoba_Centro
+ae12.3456       up    up   MHUB:GESTION-SWM1_CBC1
+ae21            up    up   CNX:ACCESO:CMT1.CBC1-CBR8 (xe-1/2/0 + xe-4/0/0 + xe-4/3/0 + xe-7/0/0 + xe-10/2/0 + xe-7/3/1)
+ae21.3011       up    up   CNX:DATOS:CMT1.CBC1-cBR8
+ae21.3031       up    up   CNX:CONTROL:CMT1.CBC1-cBR8
+ae21.3161       up    up   CNX:TOIP:CMT1.CBC1-CBR8
+ae21.3181       up    up   CNX:MULTICAST:CMT1.CBC1-CBR8
+ae22            up    up   CNX:ACCESO:CMT2.CBC1-CBR8 (xe-1/2/1 + xe-4/0/1 + xe-7/0/1 + xe-10/2/1)
+ae22.3012       up    up   CNX:DATOS:CMT2.CBC1-CBR8
+ae22.3032       up    up   CNX:CONTROL:CMT2.CBC1-CBR8
+ae22.3162       up    up   CNX:TOIP:CMT2.CBC1-CBR8
+ae22.3182       up    up   CNX:MULTICAST:CMT2.CBC1-CBR8
+ae23            up    up   CNX:ACCESO:CMT3.CBC1-CBR8 (xe-1/3/0 + xe-4/0/2 + xe-4/1/3 + xe-7/0/2 + xe-10/3/0 + xe-7/1/3)
+ae23.3013       up    up   CNX:DATOS:CMT3.CBC1-CBR8
+ae23.3033       up    up   CNX:CONTROL:CMT3.CBC1-CBR8
+ae23.3163       up    up   CNX:TOIP:CMT3.CBC1-CBR8
+ae23.3183       up    up   CNX:MULTICAST:CMT3.CBC1-CBR8
+ae24            up    up   CNX:ACCESO:CMT4.CBC1-CBR8 (xe-4/1/0 + xe-4/1/1 + xe-7/1/0 + xe-7/1/1)
+ae24.3014       up    up   CNX:DATOS:CMT4.CBC1-CBR8
+ae24.3034       up    up   CNX:CONTROL:CMT4.CBC1-CBR8
+ae24.3164       up    up   CNX:TOIP:CMT4.CBC1-CBR8
+ae24.3184       up    up   CNX:MULTICAST:CMT4.CBC1-CBR8
+irb.10          up    down MGMT-CV
+irb.13          up    up   MHUB:VLAN13-MONITOREO-Cordoba_Centro
+irb.18          up    up   MHUB:SUPERVISION-INTERIOR-Cordoba_Centro
+irb.55          up    up   MGMT-FCORP
+irb.100         up    up   CDN-Google-CBC
+irb.1011        up    up   HUB:Cordoba_Centro_Seguridad
+irb.1150        up    up   VOD:Gestion APEX
+irb.1151        up    up   VOD:Video APEX
+irb.3223        up    up   Cyclades-CBC1
+irb.658         up    up   VoD-RaD-DaC
+{master}
+
+'show interfaces brief | match "Physical link is Up" | no-more | count '
+Count: 177 lines
+{master}
+
+'show l2circuit connections up | match vc | count | no-more '
+Count: 1 lines
+{master}
+
+'show route 0.0.0.0 | match inet.0 | no-more'
+inet.0: 107016 destinations, 213449 routes (107003 active, 0 holddown, 22 hidden)
+VRF-CABLE-CMTS-CBC1.inet.0: 293 destinations, 300 routes (16 active, 0 holddown, 281 hidden)
+VRF-CABLE-CYCLADES.inet.0: 119 destinations, 238 routes (119 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-ABIS2G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-MONITOREO-ENERGIA.inet.0: 14 destinations, 18 routes (14 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-DCN.inet.0: 173 destinations, 342 routes (173 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-IUB3G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1MME-FRONTERA.inet.0: 5 destinations, 5 routes (5 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1-FRONTERA.inet.0: 478 destinations, 953 routes (478 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1MME-ACCESO.inet.0: 490 destinations, 978 routes (490 active, 0 holddown, 0 hidden)
+VRF-CABLE-GESTION-SDH-HUAWEI-ACCESO.inet.0: 381 destinations, 852 routes (381 active, 0 holddown, 0 hidden)
+{master}
+
+'show route summary | match inet.0 | no-more'
+inet.0: 107016 destinations, 213449 routes (107003 active, 0 holddown, 22 hidden)
+VRF-CABLE-CMTS-CBC1.inet.0: 293 destinations, 300 routes (16 active, 0 holddown, 281 hidden)
+VRF-CABLE-CYCLADES.inet.0: 119 destinations, 238 routes (119 active, 0 holddown, 0 hidden)
+VRF-VIDEO-VOD-GESTION-APEX.inet.0: 78 destinations, 156 routes (78 active, 0 holddown, 0 hidden)
+VRF-VIDEO-VOD-VIDEO-APEX.inet.0: 60 destinations, 118 routes (60 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-ABIS2G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-MONITOREO-ENERGIA.inet.0: 14 destinations, 18 routes (14 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-DCN.inet.0: 173 destinations, 342 routes (173 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-IUB3G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1MME-FRONTERA.inet.0: 5 destinations, 5 routes (5 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1-FRONTERA.inet.0: 478 destinations, 953 routes (478 active, 0 holddown, 0 hidden)
+VRF-CABLE-TOIP-FRONT-INT.inet.0: 83 destinations, 157 routes (83 active, 0 holddown, 0 hidden)
+VRF-CABLE-TOIP-ACCESO.inet.0: 317 destinations, 356 routes (44 active, 0 holddown, 277 hidden)
+VRF-CABLE-PERSONAL-S1MME-ACCESO.inet.0: 490 destinations, 978 routes (490 active, 0 holddown, 0 hidden)
+VRF-CABLE-GESTION-SDH-HUAWEI-ACCESO.inet.0: 381 destinations, 852 routes (381 active, 0 holddown, 0 hidden)
+VRF-FCORP-CSC.inet.0: 122 destinations, 253 routes (122 active, 0 holddown, 0 hidden)
+{master}
+
+'show bgp summary | match Establ | no-more'
+10.101.105.2          64581      87364      86267       0      10 3w6d 20:28:10 Establ
+10.101.105.6          64582     416548     411703       0       5 18w6d 21:50:17 Establ
+10.101.105.10         64583     416557     411686       0       4 18w6d 21:42:24 Establ
+10.101.105.14         64581      44069      44115       0      10 3w6d 20:28:18 Establ
+10.101.105.18         64582     640580     641425       0       4 57w5d 22:44:56 Establ
+10.101.105.22         64583     645331     646168       0       3 58w1d 22:38:36 Establ
+10.101.105.26         64584    1491608    1471552       0       4 67w6d 11:23:04 Establ
+10.101.105.30         64584     752751     753133       0       4 67w6d 11:23:07 Establ
+10.101.105.186        64584    1491509    1471865       0       4 67w6d 11:23:04 Establ
+10.101.105.190        64581      87353      86269       0       9 3w6d 20:28:14 Establ
+10.101.105.194        64582    1269463    1253958       0       4 57w5d 22:44:59 Establ
+10.101.105.198        64583    1278895    1263216       0       3 58w1d 22:38:43 Establ
+10.110.144.38         64600    1415870    1453573       0       2 66w6d 23:17:39 Establ
+200.89.167.70         10481    7233167      21579       0     119 6d 22:49:17 Establ
+200.89.167.75         10481   18422576      65069       0     122 2w6d 22:44:35 Establ
+200.89.185.38          7303    8838579    7641737       0       0 102w2d 8:19:30 Establ
+200.89.185.50          7303   11608664   12779065       0       0 96w0d 13:21:06 Establ
+200.89.185.54          7303   11608640   12779052       0       0 96w0d 13:19:16 Establ
+200.89.185.58          7303   11608460   12779033       0       0 96w0d 13:18:43 Establ
+200.89.185.62          7303   11608671   12779036       0       0 96w0d 13:18:59 Establ
+2800:2f23:b:3::2       64584    1491265    1471692       0       4 67w6d 11:23:00 Establ
+2800:2f23:100b:2::2       64581      87296      86263       0      10 3w6d 20:28:23 Establ
+2800:2f23:100b:4::2       64582     381068     376754       0       5 17w2d 14:27:39 Establ
+2800:2f23:100b:8::2       64583     380492     376200       0       4 17w2d 10:10:45 Establ
+{master}
+
+'show bgp summary | match Establ | count | no-more'
+Count: 24 lines
+{master}
+
+'show route advertising-protocol bgp 200.89.167.28 | match inet.0 '
+{master}
+
+'show route advertising-protocol bgp 200.89.167.29 | match inet.0 '
+{master}
+
+'show route advertising-protocol bgp 200.89.167.70 | match inet.0 '
+inet.0: 107016 destinations, 213449 routes (107003 active, 0 holddown, 22 hidden)
+VRF-CABLE-CMTS-CBC1.inet.0: 293 destinations, 300 routes (16 active, 0 holddown, 281 hidden)
+VRF-CABLE-CYCLADES.inet.0: 119 destinations, 238 routes (119 active, 0 holddown, 0 hidden)
+VRF-VIDEO-VOD-GESTION-APEX.inet.0: 78 destinations, 156 routes (78 active, 0 holddown, 0 hidden)
+VRF-VIDEO-VOD-VIDEO-APEX.inet.0: 60 destinations, 118 routes (60 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-ABIS2G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-MONITOREO-ENERGIA.inet.0: 14 destinations, 18 routes (14 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-DCN.inet.0: 173 destinations, 342 routes (173 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-IUB3G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1MME-FRONTERA.inet.0: 5 destinations, 5 routes (5 active, 0 holddown, 0 hidden)
+VRF-CABLE-TOIP-FRONT-INT.inet.0: 83 destinations, 157 routes (83 active, 0 holddown, 0 hidden)
+VRF-CABLE-TOIP-ACCESO.inet.0: 317 destinations, 356 routes (44 active, 0 holddown, 277 hidden)
+VRF-CABLE-PERSONAL-S1MME-ACCESO.inet.0: 490 destinations, 978 routes (490 active, 0 holddown, 0 hidden)
+VRF-CABLE-GESTION-SDH-HUAWEI-ACCESO.inet.0: 381 destinations, 852 routes (381 active, 0 holddown, 0 hidden)
+VRF-FCORP-CSC.inet.0: 122 destinations, 253 routes (122 active, 0 holddown, 0 hidden)
+{master}
+
+'show route advertising-protocol bgp 200.89.167.75 | match inet.0 '
+inet.0: 107016 destinations, 213449 routes (107003 active, 0 holddown, 22 hidden)
+VRF-CABLE-CMTS-CBC1.inet.0: 293 destinations, 300 routes (16 active, 0 holddown, 281 hidden)
+VRF-CABLE-CYCLADES.inet.0: 119 destinations, 238 routes (119 active, 0 holddown, 0 hidden)
+VRF-VIDEO-VOD-GESTION-APEX.inet.0: 78 destinations, 156 routes (78 active, 0 holddown, 0 hidden)
+VRF-VIDEO-VOD-VIDEO-APEX.inet.0: 60 destinations, 118 routes (60 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-ABIS2G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-MONITOREO-ENERGIA.inet.0: 14 destinations, 18 routes (14 active, 0 holddown, 0 hidden)
+VRF-CABLE-MHUB-DCN.inet.0: 173 destinations, 342 routes (173 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-IUB3G-FRONTERA.inet.0: 3 destinations, 3 routes (3 active, 0 holddown, 0 hidden)
+VRF-CABLE-PERSONAL-S1MME-FRONTERA.inet.0: 5 destinations, 5 routes (5 active, 0 holddown, 0 hidden)
+VRF-CABLE-TOIP-FRONT-INT.inet.0: 83 destinations, 157 routes (83 active, 0 holddown, 0 hidden)
+VRF-CABLE-TOIP-ACCESO.inet.0: 317 destinations, 356 routes (44 active, 0 holddown, 277 hidden)
+VRF-CABLE-PERSONAL-S1MME-ACCESO.inet.0: 490 destinations, 978 routes (490 active, 0 holddown, 0 hidden)
+VRF-CABLE-GESTION-SDH-HUAWEI-ACCESO.inet.0: 381 destinations, 852 routes (381 active, 0 holddown, 0 hidden)
+VRF-FCORP-CSC.inet.0: 122 destinations, 253 routes (122 active, 0 holddown, 0 hidden)
+{master}
+
+'show ntp associations | no-more'
+remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*24.232.1.115    .GPS.            1 -  976 1024  377   10.913    1.619   0.361
++181.30.130.4    .GPS.            1 -   12 1024  377   10.892    1.130   0.450
+{master}
+
+'show ospf route brief | count | no-more	'
+Count: 3608 lines
+{master}
+
+'show ospf interface | no-more'
+Interface           State   Area            DR ID           BDR ID          Nbrs
+ae6.0               PtToPt  0.0.0.230       0.0.0.0         0.0.0.0            1
+ae8.0               PtToPt  0.0.0.230       0.0.0.0         0.0.0.0            1
+lo0.0               DRother 0.0.0.230       0.0.0.0         0.0.0.0            0
+{master}
+
+'show ospf route brief | count | no-more	'
+Count: 3608 lines
+{master}
+
+'show vpls mac-table count | match domain | no-more'
+2 MAC address learned in routing instance VPLS-FCORP-335020 bridge domain __VPLS-FCORP-335020__
+50 MAC address learned in routing instance VPLS-SIST-220285 bridge domain __VPLS-SIST-220285__
+20 MAC address learned in routing instance VPLS-SIST-220288 bridge domain __VPLS-SIST-220288__
+12 MAC address learned in routing instance VPLS-VIDEO-220608 bridge domain __VPLS-VIDEO-220608__
+70 MAC address learned in routing instance VPLS-VIDEO-220658 bridge domain __VPLS-VIDEO-220658__
+0 MAC address learned in routing instance __juniper_private1__ bridge domain ____juniper_private1____
+{master}
+
+'show vpls connections summary | no-more'
+Layer-2 VPN Connections Summary:
+Instance: VPLS-FCORP-335020
+  VPLS-id: 335020
+    Total VCs up: 2, Total VCs down: 0
+Instance: VPLS-SIST-220285
+  VPLS-id: 220285
+    Total VCs up: 2, Total VCs down: 0
+Instance: VPLS-SIST-220288
+  VPLS-id: 220288
+    Total VCs up: 2, Total VCs down: 0
+Instance: VPLS-VIDEO-220608
+  VPLS-id: 220608
+    Total VCs up: 2, Total VCs down: 0
+Instance: VPLS-VIDEO-220658
+  VPLS-id: 220658
+    Total VCs up: 2, Total VCs down: 0
+{master}
+
+'show vpls mac-table count | match learned | no-more'
+2 MAC address learned in routing instance VPLS-FCORP-335020 bridge domain __VPLS-FCORP-335020__
+50 MAC address learned in routing instance VPLS-SIST-220285 bridge domain __VPLS-SIST-220285__
+20 MAC address learned in routing instance VPLS-SIST-220288 bridge domain __VPLS-SIST-220288__
+12 MAC address learned in routing instance VPLS-VIDEO-220608 bridge domain __VPLS-VIDEO-220608__
+70 MAC address learned in routing instance VPLS-VIDEO-220658 bridge domain __VPLS-VIDEO-220658__
+0 MAC address learned in routing instance __juniper_private1__ bridge domain ____juniper_private1____
+{master}
+
+'show bridge domain extensive | match count | no-more'
+Total MAC count: 2 
+Total MAC count: 50 
+Total MAC count: 20 
+Total MAC count: 12 
+Total MAC count: 70 
+Total MAC count: 0 
+Total MAC count: 0 
+Total MAC count: 0 
+Total MAC count: 0 
+Total MAC count: 6 
+Total MAC count: 0 
+Total MAC count: 7 
+Total MAC count: 14 
+Total MAC count: 59 
+Total MAC count: 0 
+Total MAC count: 1 
+Total MAC count: 37 
+{master}
+
+'show bridge mac-table count | match default-switch | no-more'
+0 MAC address learned in routing instance default-switch bridge domain Vlan1011
+0 MAC address learned in routing instance default-switch bridge domain Vlan13
+0 MAC address learned in routing instance default-switch bridge domain Vlan18
+0 MAC address learned in routing instance default-switch bridge domain vlan10
+6 MAC address learned in routing instance default-switch bridge domain vlan100
+0 MAC address learned in routing instance default-switch bridge domain vlan1011
+7 MAC address learned in routing instance default-switch bridge domain vlan1150
+14 MAC address learned in routing instance default-switch bridge domain vlan1151
+59 MAC address learned in routing instance default-switch bridge domain vlan13
+0 MAC address learned in routing instance default-switch bridge domain vlan18
+1 MAC address learned in routing instance default-switch bridge domain vlan3223
+37 MAC address learned in routing instance default-switch bridge domain vlan55
+{master}
+
+'show pim neighbors instance all | no-more'
+B = Bidirectional Capable, G = Generation Identifier
+H = Hello Option Holdtime, L = Hello Option LAN Prune Delay,
+P = Hello Option DR Priority, T = Tracking Bit
+Instance: PIM.master
+Interface           IP V Mode        Option       Uptime Neighbor addr
+ae21.3181            4 2             HPG    3w6d 20:29:00 10.101.105.230 
+ae22.3182            4 2             HPG    57w5d 22:45:11 10.101.105.234 
+ae23.3183            4 2             HPG    58w1d 22:38:57 10.101.105.238 
+ae24.3184            4 2             HPG    67w6d 11:23:22 10.101.105.226 
+ae6.0                4 2             HPLGT  6w5d 13:15:39 10.100.6.21    
+ae8.0                4 2             HPLGT  123w6d 22:48:54 10.100.6.37    
+Instance: PIM.VRF-CABLE-CMTS-CBC1
+Interface           IP V Mode        Option       Uptime Neighbor addr
+ae21.3031            4 2             HPG    3w6d 20:29:00 10.101.105.14  
+ae22.3032            4 2             HPG    57w5d 22:45:11 10.101.105.18  
+ae23.3033            4 2             HPG    58w1d 22:38:57 10.101.105.22  
+ae24.3034            4 2             HPG    67w6d 11:23:22 10.101.105.30  
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.1   
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.2   
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.3   
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.5   
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.6   
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.7   
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.9   
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.10  
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.11  
+irb.658              4 2             HPLGT   6d 11:58:34 10.110.140.12  
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.13  
+irb.658              4 2             HPLGT   6d 11:58:34 10.110.140.14  
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.15  
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.20  
+irb.658              4 2             HPGB    6d 13:04:46 10.110.140.26  
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.30  
+irb.658              4 2             HPLGT   6d 11:58:37 10.110.140.31  
+irb.658              4 2             HPLG    6d 12:01:04 10.110.140.35  
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.41  
+irb.658              4 2             HPLGT   6d 11:58:34 10.110.140.42  
+irb.658              4 2             HPGB    6d 13:25:05 10.110.140.48  
+irb.658              4 2             HPGB   6w5d 13:15:23 10.110.140.58  
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.61  
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.69  
+irb.658              4 2             HPGB   3w4d 04:53:29 10.110.140.71  
+irb.658              4 2             HPGB    5d 16:14:17 10.110.140.72  
+irb.658              4 2             HPGB   6w5d 13:15:22 10.110.140.73  
+irb.658              4 2             HPGB   6w5d 13:15:22 10.110.140.83  
+irb.658              4 2             HPLGT  6w5d 13:15:23 10.110.140.90  
+irb.658              4 2             HPLGT  6w5d 13:15:23 10.110.140.91  
+irb.658              4 2             HPLGT  4w0d 22:46:23 10.110.140.92  
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.93  
+irb.658              4 2             HPLG    6d 12:01:04 10.110.140.94  
+irb.658              4 2             HPLG    6d 12:01:04 10.110.140.99  
+irb.658              4 2             HPLG    6d 12:01:04 10.110.140.100 
+irb.658              4 2             HPLGT  6w5d 13:15:23 10.110.140.107 
+irb.658              4 2             HPLGT   6d 11:58:36 10.110.140.127 
+irb.658              4 2             HPGB    6d 13:01:07 10.110.140.128 
+irb.658              4 2             HPLGT   6d 11:58:36 10.110.140.129 
+irb.658              4 2             HPGB    6d 13:01:00 10.110.140.130 
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.131 
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.134 
+irb.658              4 2             HPGB    6d 12:03:56 10.110.140.136 
+irb.658              4 2             HPLGT   6d 11:58:35 10.110.140.140 
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.146 
+irb.658              4 2             HPLGT   6d 11:58:35 10.110.140.151 
+irb.658              4 2             HPLGT   3d 01:52:13 10.110.140.152 
+irb.658              4 2             HPLGT   6d 12:01:04 10.110.140.153 
+irb.658              4 2             HPGB   6w5d 13:15:21 10.110.140.154 
+irb.658              4 2             HPLGT   6d 23:07:59 10.110.140.155 
+irb.658              4 2             HPGB    6d 12:29:02 10.110.140.156 
+irb.658              4 2             HPGB   6w5d 13:15:21 10.110.140.192 
+irb.658              4 2             HPLGT   6d 11:58:37 10.110.140.197 
+irb.658              4 2             HPLGT  6w5d 13:15:23 10.110.140.198 
+irb.658              4 2             HPLG    6d 12:01:04 10.110.140.200 
+{master}
+
+'show mpls interface | no-more'
+Interface        State       Administrative groups (x: extended)
+ae6.0            Up         <none>
+ae8.0            Up         <none>
+ae7.100          Up         <none>
+{master}
+
+'show ldp interface | no-more'
+Interface            Label space ID        Nbr count   Next hello
+lo0.0                10.100.0.105:0           2           0
+ae6.0                10.100.0.105:0           1           0
+ae8.0                10.100.0.105:0           1           0
+{master}
+
+'show ldp session | no-more'
+Address           State        Connection     Hold time  Adv. Mode
+200.89.167.30       Operational  Open             29         DU
+200.89.167.31       Operational  Open             29         DU
+{master}
+
+'show chassis fpc pic-status | no-more'
+Slot 0   Online       MPC Type 2 3D
+  PIC 0  Online       10x 1GE(LAN) RJ45
+  PIC 1  Online       10x 1GE(LAN) RJ45
+  PIC 2  Online       10x 1GE(LAN) RJ45
+  PIC 3  Online       10x 1GE(LAN) RJ45
+Slot 1   Online       MPC Type 2 3D
+  PIC 0  Online       10x 1GE(LAN) SFP
+  PIC 1  Online       10x 1GE(LAN) SFP
+  PIC 2  Online       2x 10GE  XFP
+  PIC 3  Online       2x 10GE  XFP
+Slot 2   Online       MPC Type 2 3D
+  PIC 0  Online       2x 10GE  XFP
+  PIC 1  Online       2x 10GE  XFP
+Slot 3   Online       MPC Type 2 3D
+  PIC 0  Online       2x 10GE  XFP
+  PIC 1  Online       2x 10GE  XFP
+Slot 4   Online       MPC 3D 16x 10GE
+  PIC 0  Online       4x 10GE(LAN) SFP+
+  PIC 1  Online       4x 10GE(LAN) SFP+
+  PIC 2  Online       4x 10GE(LAN) SFP+
+  PIC 3  Online       4x 10GE(LAN) SFP+
+Slot 7   Online       MPC 3D 16x 10GE
+  PIC 0  Online       4x 10GE(LAN) SFP+
+  PIC 1  Online       4x 10GE(LAN) SFP+
+  PIC 2  Online       4x 10GE(LAN) SFP+
+  PIC 3  Online       4x 10GE(LAN) SFP+
+Slot 8   Online       MPC Type 2 3D
+  PIC 0  Online       2x 10GE  XFP
+  PIC 1  Online       2x 10GE  XFP
+Slot 9   Online       MPC Type 2 3D
+  PIC 0  Online       2x 10GE  XFP
+  PIC 1  Online       2x 10GE  XFP
+Slot 10  Online       MPC Type 2 3D
+  PIC 0  Online       10x 1GE(LAN) SFP
+  PIC 1  Online       10x 1GE(LAN) SFP
+  PIC 2  Online       2x 10GE  XFP
+  PIC 3  Online       2x 10GE  XFP
+Slot 11  Online       MPC Type 2 3D
+  PIC 0  Online       10x 1GE(LAN) RJ45
+  PIC 1  Online       10x 1GE(LAN) RJ45
+  PIC 2  Online       10x 1GE(LAN) RJ45
+  PIC 3  Online       10x 1GE(LAN) RJ45
+{master}
+
+'show version brief | no-more'
+Hostname: ROA1.CBC1-re0
+Model: mx960
+Junos: 14.2R7.5
+JUNOS Base OS boot [14.2R7.5]
+JUNOS Base OS Software Suite [14.2R7.5]
+JUNOS platform Software Suite [14.2R7.5]
+JUNOS Web Management [14.2R7.5]
+JUNOS Runtime Software Suite [14.2R7.5]
+JUNOS Online Documentation [14.2R7.5]
+JUNOS Services AACL Container package [14.2R7.5]
+JUNOS Services Application Level Gateways [14.2R7.5]
+JUNOS AppId Services [14.2R7.5]
+JUNOS Border Gateway Function package [14.2R7.5]
+JUNOS Services COS [14.2R7.5]
+JUNOS Services Captive Portal and Content Delivery Container package [14.2R7.5]
+JUNOS Services HTTP Content Management package [14.2R7.5]
+JUNOS IDP Services [14.2R7.5]
+JUNOS Services LL-PDF Container package [14.2R7.5]
+JUNOS Services Jflow Container package [14.2R7.5]
+JUNOS Services Mobile Subscriber Service Container package [14.2R7.5]
+JUNOS Services MobileNext Software package [14.2R7.5]
+JUNOS Services PTSP Container package [14.2R7.5]
+JUNOS Services NAT [14.2R7.5]
+JUNOS Services RPM [14.2R7.5]
+JUNOS Services Stateful Firewall [14.2R7.5]
+JUNOS Voice Services Container package [14.2R7.5]
+JUNOS Macsec Software Suite [14.2R7.5]
+JUNOS Services Crypto [14.2R7.5]
+JUNOS Services SSL [14.2R7.5]
+JUNOS Services IPSec [14.2R7.5]
+JUNOS py-base-i386 [14.2R7.5]
+JUNOS 64-bit Kernel Software Suite [14.2R7.5]
+JUNOS Crypto Software Suite [14.2R7.5]
+JUNOS 64-bit Runtime Software Suite [14.2R7.5]
+JUNOS Packet Forwarding Engine Support (M/T/EX Common) [14.2R7.5]
+JUNOS Packet Forwarding Engine Support (MX Common) [14.2R7.5]
+JUNOS 64-bit JAM Plugin Software Suite (MPC2E/3E) [14.2R7.5-C1.7]
+JUNOS Routing Software Suite [14.2R7.5]
+{master}
+
+'show system memory | match memory'
+System memory usage distribution:
+       Total memory: 33518216 Kbytes (100%)
+    Reserved memory: 1007384 Kbytes (  3%)
+       Wired memory:  306484 Kbytes (  0%)
+      Active memory:  839292 Kbytes (  2%)
+    Inactive memory:  423436 Kbytes (  1%)
+       Cache memory: 3250524 Kbytes (  9%)
+        Free memory: 27315472 Kbytes ( 81%)
+Memory disk resident memory:  354500 Kbytes
+{master}
+
+'show version invoke-on all-routing-engines | no-more'
+re0:
+--------------------------------------------------------------------------
+Hostname: ROA1.CBC1-re0
+Model: mx960
+Junos: 14.2R7.5
+JUNOS Base OS boot [14.2R7.5]
+JUNOS Base OS Software Suite [14.2R7.5]
+JUNOS platform Software Suite [14.2R7.5]
+JUNOS Web Management [14.2R7.5]
+JUNOS Runtime Software Suite [14.2R7.5]
+JUNOS Online Documentation [14.2R7.5]
+JUNOS Services AACL Container package [14.2R7.5]
+JUNOS Services Application Level Gateways [14.2R7.5]
+JUNOS AppId Services [14.2R7.5]
+JUNOS Border Gateway Function package [14.2R7.5]
+JUNOS Services COS [14.2R7.5]
+JUNOS Services Captive Portal and Content Delivery Container package [14.2R7.5]
+JUNOS Services HTTP Content Management package [14.2R7.5]
+JUNOS IDP Services [14.2R7.5]
+JUNOS Services LL-PDF Container package [14.2R7.5]
+JUNOS Services Jflow Container package [14.2R7.5]
+JUNOS Services Mobile Subscriber Service Container package [14.2R7.5]
+JUNOS Services MobileNext Software package [14.2R7.5]
+JUNOS Services PTSP Container package [14.2R7.5]
+JUNOS Services NAT [14.2R7.5]
+JUNOS Services RPM [14.2R7.5]
+JUNOS Services Stateful Firewall [14.2R7.5]
+JUNOS Voice Services Container package [14.2R7.5]
+JUNOS Macsec Software Suite [14.2R7.5]
+JUNOS Services Crypto [14.2R7.5]
+JUNOS Services SSL [14.2R7.5]
+JUNOS Services IPSec [14.2R7.5]
+JUNOS py-base-i386 [14.2R7.5]
+JUNOS 64-bit Kernel Software Suite [14.2R7.5]
+JUNOS Crypto Software Suite [14.2R7.5]
+JUNOS 64-bit Runtime Software Suite [14.2R7.5]
+JUNOS Packet Forwarding Engine Support (M/T/EX Common) [14.2R7.5]
+JUNOS Packet Forwarding Engine Support (MX Common) [14.2R7.5]
+JUNOS 64-bit JAM Plugin Software Suite (MPC2E/3E) [14.2R7.5-C1.7]
+JUNOS Routing Software Suite [14.2R7.5]
+re1:
+--------------------------------------------------------------------------
+Hostname: ROA1.CBC1-re1
+Model: mx960
+Junos: 14.2R7.5
+JUNOS Base OS boot [14.2R7.5]
+JUNOS Base OS Software Suite [14.2R7.5]
+JUNOS platform Software Suite [14.2R7.5]
+JUNOS Web Management [14.2R7.5]
+JUNOS Runtime Software Suite [14.2R7.5]
+JUNOS Online Documentation [14.2R7.5]
+JUNOS Services AACL Container package [14.2R7.5]
+JUNOS Services Application Level Gateways [14.2R7.5]
+JUNOS AppId Services [14.2R7.5]
+JUNOS Border Gateway Function package [14.2R7.5]
+JUNOS Services COS [14.2R7.5]
+JUNOS Services Captive Portal and Content Delivery Container package [14.2R7.5]
+JUNOS Services HTTP Content Management package [14.2R7.5]
+JUNOS IDP Services [14.2R7.5]
+JUNOS Services Jflow Container package [14.2R7.5]
+JUNOS Services LL-PDF Container package [14.2R7.5]
+JUNOS Services MobileNext Software package [14.2R7.5]
+JUNOS Services Mobile Subscriber Service Container package [14.2R7.5]
+JUNOS Services NAT [14.2R7.5]
+JUNOS Services PTSP Container package [14.2R7.5]
+JUNOS Services RPM [14.2R7.5]
+JUNOS Services Stateful Firewall [14.2R7.5]
+JUNOS Voice Services Container package [14.2R7.5]
+JUNOS Macsec Software Suite [14.2R7.5]
+JUNOS Services Crypto [14.2R7.5]
+JUNOS Services SSL [14.2R7.5]
+JUNOS Services IPSec [14.2R7.5]
+JUNOS py-base-i386 [14.2R7.5]
+JUNOS 64-bit Kernel Software Suite [14.2R7.5]
+JUNOS Crypto Software Suite [14.2R7.5]
+JUNOS 64-bit Runtime Software Suite [14.2R7.5]
+JUNOS Packet Forwarding Engine Support (M/T/EX Common) [14.2R7.5]
+JUNOS Packet Forwarding Engine Support (MX Common) [14.2R7.5]
+JUNOS 64-bit JAM Plugin Software Suite (MPC2E/3E) [14.2R7.5-C1.7]
+JUNOS Routing Software Suite [14.2R7.5]
+{master}
